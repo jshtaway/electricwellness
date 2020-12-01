@@ -7,10 +7,6 @@ const port = process.env.PORT || 3000;
 app.get('/', (req, res) => {    res.send('root route');
 
 })
-//Start server
-app.listen(port, (req, res) => {
-    console.log(`server listening on port: ${port}`)
-});
 
 //Static file declaration
 app.use(express.static(path.join(__dirname, 'client/build')));
