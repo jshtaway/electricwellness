@@ -1,0 +1,7 @@
+Configure npm to use the new directory path:
+
+npm config set prefix '~/.npm-global'
+(https://stackoverflow.com/questions/48910876/error-eacces-permission-denied-access-usr-local-lib-node-modules)
+
+start server:
+nodemon server.js
